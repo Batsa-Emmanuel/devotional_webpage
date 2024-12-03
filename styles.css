@@ -1,0 +1,155 @@
+/* General Reset */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+  
+  body {
+    font-family:Georgia, Times, serif sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+   
+   
+  }
+  
+  header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    
+  }
+  
+  header .nav-bar {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  header .nav-bar li a {
+    color: rgb(83, 195, 230);
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  header .nav-bar li a:hover {
+    background-color: #a94b4b;
+    border-radius: 5px;
+  }
+  
+  /* Main Layout */
+  .main-layout {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  /* Section Styles */
+  .main-section {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-section h1 {
+    color: #333;
+  }
+  
+  .main-section p {
+    margin-top: 10px;
+    font-size: 2em;
+  }
+  
+  /* Aside Styles */
+  aside {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(51, 50, 50, 0.1);
+  }
+  
+  
+  
+  aside ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  aside ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+    padding: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+ 
+  
+  /* Div Styles */
+  .content {
+    display: flex;
+   
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+  
+  }
+  
+   .box,.img {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(60, 38, 38, 0.1);
+    text-align: center;
+    font-weight: bold;
+    flex: 1 1 30%;
+    height: 200px;
+    display: flex;
+    
+    
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+
+ 
